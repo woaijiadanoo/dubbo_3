@@ -53,11 +53,6 @@
             <artifactId>curator-recipes</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-        </dependency>
-
-        <dependency>
             <groupId>com.jiangzh.course</groupId>
             <artifactId>dubbo-service</artifactId>
             <version>0.0.1-SNAPSHOT</version>
