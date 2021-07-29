@@ -6,11 +6,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ImportResource;
 
+import java.io.IOException;
+
 @SpringBootApplication
 @ImportResource(locations = {"classpath:applicationContext-dubbo.xml"})
 public class DubboConsumerApplication {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
 
         ConfigurableApplicationContext context = SpringApplication.run(DubboConsumerApplication.class, args);
 
@@ -18,6 +20,8 @@ public class DubboConsumerApplication {
 
         String message = "I'm Jiangzh";
         System.out.println(producerService.sayHello(message));
+
+        System.in.read();
     }
 
 }

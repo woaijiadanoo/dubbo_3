@@ -28,7 +28,7 @@
         <java.version>1.8</java.version>
         <!-- 增加dubbo版本号控制 -->
 <!--        <dubbo.version>3.0.0.preview</dubbo.version>-->
-        <dubbo.version>3.0.1</dubbo.version>
+        <dubbo.version>2.7.12</dubbo.version>
         <curator.version>4.3.0</curator.version>
 <!--        <curator.version>5.1.0</curator.version>-->
     </properties>
